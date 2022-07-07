@@ -10,7 +10,7 @@ const posts = [
 
 const Home: NextPage = () => {
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-10 mb-8 max-w-screen-xl">
       <Head>
         <title>Artem's Blog</title>
         <link rel="icon" href="/favicon.ico" />
